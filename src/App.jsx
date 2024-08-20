@@ -30,7 +30,7 @@ function App() {
 
     function preloadImages() {
       for (let i = 1; i <= frames.maxIndex; i++) {
-        const imageUrl =  `/scroll-animate-2/compressed_images/frame_${i.toString().padStart(4, "0")}.jpeg`;
+        const imageUrl =  `/scroll-animate-2/images/frame_${i.toString().padStart(4, "0")}.jpeg`;
         const img = new Image();
         img.src = imageUrl;
         img.onload = () => {
